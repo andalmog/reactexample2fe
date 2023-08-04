@@ -6,7 +6,7 @@ function App () {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch('/api/hello')
+    fetch('/api/hello2')
         .then(response => response.text())
         .then(message => {
           setMessage(message);
